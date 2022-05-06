@@ -1,8 +1,12 @@
-import './App.css';
-
+import '../styles/App.css';
+import { TableActividad } from './TableActividad';
+import { Usuario } from './Usuario';
 function App() {
   return (
-    <div>hola mundo</div>
+  <section className='todo'>
+  <Usuario/>
+  <TableActividad/>
+  </section> 
   );
 }
 
